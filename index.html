@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fronify — M. Ali Bhatti | Web Developer (HTML, CSS, JS, React)</title>
+    <meta name="description"
+        content="Fronify by M. Ali Bhatti — Professional web development services specializing in React, JavaScript, HTML, and CSS. Creating fast, accessible, and beautiful web experiences with modern technologies and best practices." />
+    <meta name="theme-color" content="#0ea5e9" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Fronify" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="M. Ali Bhatti" />
+    <meta name="keywords"
+        content="web developer, frontend developer, React developer, JavaScript developer, HTML CSS, web design, UI development, responsive design, accessibility, performance optimization" />
+
+    <meta property="og:title" content="Fronify — M. Ali Bhatti | Web Developer" />
+    <meta property="og:description"
+        content="Professional web development services specializing in React, JavaScript, HTML, and CSS. Creating fast, accessible, and beautiful web experiences with modern technologies and best practices." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fronify.com" />
+    <meta property="og:site_name" content="Fronify" />
+    <meta property="og:locale" content="en_US" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="icon" type="image/jpeg" href="logo.jpg">
+    <link rel="shortcut icon" href="logo.jpg" />
+    <link rel="apple-touch-icon" href="logo.jpg" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚡</text></svg>">
+    <meta property="og:image" content="logo.jpg" />
+    <meta property="og:image:alt" content="Fronify logo" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="logo.jpg" />
+    <meta name="twitter:title" content="Fronify — M. Ali Bhatti | Web Developer" />
+    <meta name="twitter:description"
+        content="Professional web development services specializing in React, JavaScript, HTML, and CSS. Creating fast, accessible, and beautiful web experiences." />
+    <meta name="twitter:creator" content="@fronify" />
+    <meta name="twitter:site" content="@fronify" />
+    <meta name="msapplication-TileColor" content="#0ea5e9" />
+    <meta name="msapplication-TileImage" content="logo.jpg" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "M. Ali Bhatti",
+        "jobTitle": "Web Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Fronify",
+          "logo": "logo.jpg",
+          "url": "https://fronify.com"
+        },
+        "description": "Professional web developer specializing in React, JavaScript, HTML, and CSS. Creating fast, accessible, and beautiful web experiences.",
+        "url": "https://fronify.com",
+        "image": "logo.jpg",
+        "sameAs": [
+          "https://github.com/fronify",
+          "https://linkedin.com/in/fronify"
+        ],
+        "knowsAbout": [
+          "Web Development",
+          "React",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "Frontend Development",
+          "UI/UX Design",
+          "Accessibility",
+          "Performance Optimization"
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Web Developer",
+          "occupationLocation": {
+            "@type": "Country",
+            "name": "Pakistan"
+          }
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="Fronify home">
+                <img class="brand-logo" src="logo.jpg" alt="Fronify logo" />
+                <span class="brand-text">Fronify</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav" aria-label="Primary">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+                <a class="btn btn-primary btn-sm" href="#contact">Hire Me</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="home">
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <p class="eyebrow">M. Ali Bhatti • Web Developer</p>
+                    <h1>Build blazing-fast, beautiful web experiences</h1>
+                    <p class="lead">I craft performant, accessible, and delightful frontends with <strong>HTML</strong>,
+                        <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React</strong>.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+                    </div>
+                    <ul class="stack-list" aria-label="Tech stack">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Accessibility</li>
+                        <li>Performance</li>
+                    </ul>
+                </div>
+                <div class="hero-art" aria-hidden="true">
+                    <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" class="blob">
+                        <defs>
+                            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                                <stop offset="0%" stop-color="#38bdf8" />
+                                <stop offset="100%" stop-color="#8b5cf6" />
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#g)" d="M305 219q-17 69-96 96t-125-34 6-140 120-69 87 78 8 69z" />
+                    </svg>
+                    <div class="avatar">
+                        <span>MB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="container">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">From concept to production—clean, scalable, and user-centric.</p>
+                <div class="cards">
+                    <article class="card">
+                        <div class="card-icon">⚛️</div>
+                        <h3>React Frontend Development</h3>
+                        <p>Robust SPAs and component architectures with modern React, hooks, and state management.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🎨</div>
+                        <h3>UI Engineering</h3>
+                        <p>Pixel-perfect, responsive interfaces with semantic HTML and modern, maintainable CSS.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">🚀</div>
+                        <h3>Performance Optimization</h3>
+                        <p>Ship fast: code-splitting, image optimization, Core Web Vitals and Lighthouse wins.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">♿</div>
+                        <h3>Accessibility</h3>
+                        <p>WCAG-friendly experiences with keyboard navigation, ARIA where needed, and color contrast.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section alt">
+            <div class="container">
+                <h2 class="section-title">Selected Projects</h2>
+                <p class="section-subtitle">A few examples of work and experiments.</p>
+                <div class="grid projects-grid">
+                    <article class="project">
+                        <div class="project-media" aria-hidden="true"></div>
+                        <div class="project-body">
+                            <h3>Fronify UI Kit</h3>
+                            <p>Reusable, accessible React components with a modern design system.</p>
+                            <ul class="tags">
+                                <li>React</li>
+                                <li>TypeScript</li>
+                                <li>Design System</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+                                <a href="#" class="btn btn-ghost btn-sm">Source</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-media" aria-hidden="true"></div>
+                        <div class="project-body">
+                            <h3>Performance Starter</h3>
+                            <p>Vanilla JS template tuned for performance and best practices.</p>
+                            <ul class="tags">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+                                <a href="#" class="btn btn-ghost btn-sm">Source</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <div class="project-media" aria-hidden="true"></div>
+                        <div class="project-body">
+                            <h3>React SaaS Landing</h3>
+                            <p>Conversion-focused landing page with modular sections and analytics hooks.</p>
+                            <ul class="tags">
+                                <li>React</li>
+                                <li>CSS</li>
+                                <li>Marketing</li>
+                            </ul>
+                            <div class="project-actions">
+                                <a href="#" class="btn btn-ghost btn-sm">Live Demo</a>
+                                <a href="#" class="btn btn-ghost btn-sm">Source</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container about">
+                <div class="about-copy">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I'm <strong>M. Ali Bhatti</strong>, a web developer who loves building clean, fast, and
+                        accessible interfaces. I enjoy turning complex problems into simple, beautiful solutions—shipped
+                        with quality.</p>
+                    <ul class="stats">
+                        <li><span class="num">1+</span><span class="label">Years coding</span></li>
+                        <li><span class="num">30+</span><span class="label">Projects</span></li>
+                        <li><span class="num">100%</span><span class="label">Client focus</span></li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul class="chip-list">
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (ESNext)</li>
+                        <li>React</li>
+                        <li>TypeScript</li>
+                        <li>Responsive Design</li>
+                        <li>Accessibility</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section alt" aria-labelledby="contact-heading">
+            <div class="container contact">
+                <div class="contact-copy">
+                    <h2 id="contact-heading" class="section-title">Let's work together</h2>
+                    <p>Have a project or idea? I can help bring it to life. Send a message and I’ll get back to you
+                        soon.</p>
+                    <div class="contact-links">
+                        <a href="mailto:muhammadalibhati0342@gmail.com" aria-label="Email" class="social">
+                            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                                <rect x="3" y="5" width="18" height="14" rx="2" ry="2" fill="none" stroke="currentColor"
+                                    stroke-width="2"></rect>
+                                <path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                            <span>Email</span>
+                        </a>
+                        <a href="https://github.com/alibhattii" aria-label="GitHub" class="social">
+                            <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 .5C5.73.5.98 5.24.98 11.5c0 4.85 3.15 8.96 7.5 10.41.55.1.75-.24.75-.53 0-.26-.01-.94-.01-1.85-3.05.66-3.69-1.47-3.69-1.47-.5-1.26-1.22-1.6-1.22-1.6-.99-.67.08-.66.08-.66 1.1.08 1.68 1.13 1.68 1.13.98 1.67 2.56 1.19 3.18.91.1-.71.38-1.19.69-1.46-2.43-.28-4.99-1.22-4.99-5.44 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.41.11-2.94 0 0 .92-.29 3.02 1.13.88-.24 1.82-.36 2.76-.36.94 0 1.88.12 2.76.36 2.1-1.42 3.02-1.13 3.02-1.13.6 1.53.22 2.66.11 2.94.7.77 1.13 1.75 1.13 2.95 0 4.23-2.56 5.16-5 5.44.39.33.73.98.73 1.98 0 1.43-.01 2.59-.01 2.94 0 .29.2.63.76.52A10.999 10.999 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form" aria-labelledby="contact-heading">
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name" required />
+                    </div>
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                    </div>
+                    <div class="field full">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me a little about your project"
+                            required></textarea>
+                    </div>
+                    <div class="actions">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-hint">This opens your email client. No data is stored on this site.</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Fronify • Built by M. Ali Bhatti</p>
+            <a href="#home" class="back-to-top">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
